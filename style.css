@@ -68,6 +68,7 @@ nav {
     position: relative;
     font-size: 18px;
     overflow: hidden;
+/*     overflow i.e all remaning part outside the box will be hidden  */
 }
 
 #nav-part2 h4::after {
@@ -79,9 +80,11 @@ nav {
     left: 0;
     bottom: -100%;
     border-radius: 50%;
-    transition: all ease 0.4s;
+    transition: all ease 0.4s; 
+/*     for smooth transition have some delay effect */
 }
-
+/* do not give space b/w h4 and : this would mean jab h4 pe hover hoga to uske inside ke kisi element ka after . we dont want like this we want whenever 
+we hoveer over h4 uska after*/
 #nav-part2 h4:hover::after {
     bottom: 0;
     border-radius: 0;
