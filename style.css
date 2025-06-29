@@ -427,9 +427,10 @@ nav h3 {
 }
 #footer-div h2 {
     font-size: 2vw;
-    justify-content: space-between ;
+/*     justify-content: space-between ; */
     padding: 1vw 2vw ;
     color: #ffffff ;
+    align-items: center;
 }
 
 #footer-bottom {
