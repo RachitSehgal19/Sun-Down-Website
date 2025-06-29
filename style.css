@@ -425,6 +425,12 @@ nav h3 {
     width: 100%;
     background-color: red;
 }
+#footer-div h2 {
+    font-size: 2vw;
+    justify-content: space-between ;
+    padding: 1vw 2vw ;
+    color: #ffffff ;
+}
 
 #footer-bottom {
     border-top: 1px solid #dadada;
